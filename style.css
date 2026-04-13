@@ -1,0 +1,120 @@
+/* General layout */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #2c3e50, #4ca1af);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* Navigation bar */
+nav {
+  margin-top: 10px;
+}
+
+nav button {
+  background: #ffffff;
+  border: none;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav button:hover {
+  background: #e0e0e0;
+}
+
+/* Page headings */
+h2 {
+  color: #2c3e50;
+  margin: 20px 0 10px;
+}
+
+/* Forms */
+form {
+  background: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Buttons inside forms */
+form button {
+  background: #4ca1af;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background: #357f89;
+}
+
+/* Logs and lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #e8f0fe;
+  margin: 8px 20px;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+/* Category colors */
+li.PRE { border-left: 6px solid #8e44ad; }   /* Premium */
+li.MED { border-left: 6px solid #2980b9; }   /* Medium */
+li.ORD { border-left: 6px solid #7f8c8d; }   /* Ordinary */
+li.BEER { border-left: 6px solid #27ae60; }  /* Beer */
+
+/* Report section */
+.report-card {
+  background: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.report-card h3 {
+  margin-top: 0;
+  color: #4ca1af;
+}
