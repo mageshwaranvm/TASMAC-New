@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Sales Logger</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <h1>Daily Sales Logger</h1>
+  <form id="salesForm">
+    <label>Date: <input type="date" id="date" required></label><br>
+    <label>Brand: <input type="text" id="brand" required></label><br>
+    <label>Opening Stock: <input type="number" id="opening" required></label><br>
+    <label>Sales: <input type="number" id="sales" required></label><br>
+    <label>Purchases: <input type="number" id="purchases" value="0"></label><br>
+    <button type="submit">Log Entry</button>
+  </form>
+
+  <button id="generatePDF">Generate PDF Report</button>
+
+  <ul id="log"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
