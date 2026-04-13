@@ -1,5 +1,5 @@
 {
-  "name": "Daily Sales Logger",
+  "name": "TASMAC Shop Logger",
   "short_name": "SalesLogger",
   "start_url": "index.html",
   "display": "standalone",
